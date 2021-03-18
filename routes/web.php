@@ -20,7 +20,7 @@ Route::get('/coba1', function () {
 Route::resource('propinsi','PropinsiController');
 Route::resource('kota','KotaController');
 // Route::resource('mahasiswa','MahasiswaController');
-Route::get('/mahasiswa', 'MahasiswaController@index');
+// Route::get('/mahasiswa', 'MahasiswaController@index');
 
 Route::resource('/jurusan','JurusanController');
 ?>
